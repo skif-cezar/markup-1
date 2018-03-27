@@ -716,13 +716,13 @@ form input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3
     display: inline-block;
     cursor: pointer;
 }
-.footer__social .social-icons .social-icon2 {
-    background-position: -19px 0;
+.footer__social .social-icons .social-icon-youtube {
+    background-position: -20px 0;
 }
-.footer__social .social-icons .social-icon3 {
+.footer__social .social-icons .social-icon-twitter {
     background-position: -44px 0;
 }
-.footer__social .social-icons .social-icon4 {
+.footer__social .social-icons .social-icon-inst {
     background-position: -71px 0;
 }
 .footer__social .social-icons li a {
