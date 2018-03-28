@@ -50,7 +50,7 @@ body {
     text-decoration: none;
     background-color: inherit;
     color: #ffffff;
-    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Gentium Basic', serif;
     padding: 48px 13px 5px 13px;
     font-style: normal;
     font-weight: 600;
@@ -461,15 +461,16 @@ figure {
     margin-top: 90px;
 }
 .reviews__text p {
-    width: 622px;
+    width: 620px;
     text-align: center;
     overflow: hidden;
     max-height: 267px;
-    margin: 5px auto;
+    margin-left: 34px;
     font-family: 'Gentium Basic', serif;
     font-size: 25px;
     font-weight: 700;
     line-height: 45px;
+    letter-spacing: 1px;
 }
 .reviews__text {
     color: #dde0df;
@@ -570,16 +571,14 @@ blockquote:before {
 form input {
     outline: 0 !important;
     width: 186px;
-    height: 36px;
     border: 1px solid #c8c6c6;
     background-color: #ffffff;
     color: #7c7c7c;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-style: italic;
-    margin: 8px 30px 16px 0;
-    padding-left: 14px;
-    line-height: 36px;
+    margin: 8px 30px 22px 0;
+    padding: 9px 1px 9px 14px;
 }
 form input:focus {
     border: 1px solid #c89f2d;
@@ -613,8 +612,8 @@ form input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3
     font-size: 16px;
     font-weight: 400;
     cursor: pointer;
-    margin-left: 118px;
-    margin-top: 16px;
+    margin-left: -116px;
+    margin-top: 6px;
 }
 .form__button:hover {
     background-color: #986e2c;
